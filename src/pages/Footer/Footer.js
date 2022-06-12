@@ -12,18 +12,18 @@ const Footer = () => {
             <div>
                 <div className='icon'>
                     <button>
-                        <a href="https://www.linkedin.com/in/taposh-paul-2295a9241/"> <FontAwesomeIcon icon={faLinkedin} className="btn_shadow socile-btn" /></a>
+                        <a href="https://www.linkedin.com/in/taposh-paul-2295a9241/"> <FontAwesomeIcon icon={faLinkedin} className="btn_shadow footer-icon" /></a>
                     </button>
                     <button>
-                        <a href="https://web.facebook.com/profile.php?id=100010956646799"> <FontAwesomeIcon icon={faFacebook} className="btn_shadow socile-btn" /></a>
+                        <a href="https://web.facebook.com/profile.php?id=100010956646799"> <FontAwesomeIcon icon={faFacebook} className="btn_shadow footer-icon" /></a>
                     </button>
                     <button>
                         <a href="https://github.com/Taposhpaul1998">
-                            <FontAwesomeIcon icon={faGithub} className="btn_shadow socile-btn" />
+                            <FontAwesomeIcon icon={faGithub} className="btn_shadow footer-icon" />
                         </a>
                     </button>
                     <button>
-                        <FontAwesomeIcon icon={faEnvelope} className="btn_shadow socile-btn" />
+                        <FontAwesomeIcon icon={faEnvelope} className="btn_shadow footer-icon" />
                     </button>
                 </div>
                 <div className='copy_right'>

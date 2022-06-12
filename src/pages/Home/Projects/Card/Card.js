@@ -1,8 +1,8 @@
 import React from 'react';
 import './Card.css'
 
-const Card = ({ project }) => {
-    const { id, name, img } = project;
+const Card = ({ project, hendelDetels }) => {
+    const { _id, name, img, live } = project;
 
     return (
         <>
@@ -12,8 +12,10 @@ const Card = ({ project }) => {
                 </div>
                 <div className='project_name'>
                     <h3>{name}</h3>
-                    <button className='btn_shadow'>Details</button>
-                    <button className='btn_shadow live'>Live Site</button>
+                    <div className='card_icon'>
+                        <button onClick={() => hendelDetels(_id)} className='btn_shadow'>Details</button>
+                        <a href={live}> <button className='btn_shadow'>Live Site</button></a>
+                    </div>
                 </div>
             </div>
         </>

@@ -35,13 +35,13 @@
 }
 
 .socile_icon {
+    padding: 0px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .socile-btn {
     font-size: 30px;
-    margin-right: 30px;
 }
 
 .contact-from {
