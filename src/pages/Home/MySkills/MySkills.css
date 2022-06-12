@@ -1,0 +1,113 @@
+.skills {
+    margin-top: 55px;
+}
+
+.exprience-info {
+    width: 50%;
+    padding: 15px;
+    margin: 20px;
+    padding-top: 82px;
+    border-radius: 5px;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
+
+.exprience-info h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exprience-info p {
+    color: #878e99;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.skills-info {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+
+}
+
+.bars {
+    padding-top: 10px;
+}
+
+.bars .info {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background: #eb4c4c;
+}
+
+.html::before {
+    width: 90%;
+}
+
+.css::before {
+    width: 70%;
+}
+
+.js::before {
+    width: 60%;
+}
+
+.react::before {
+    width: 70%;
+}
+
+.node::before {
+    width: 50%;
+}
+
+@media (max-width:896px) {
+    .skills .f_flex {
+        flex-direction: column;
+    }
+
+    .exprience-info {
+        width: 100%;
+    }
+
+    .skills-info {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .skills .f_flex {
+        flex-direction: column;
+    }
+
+    .exprience-info {
+        width: 100%;
+    }
+
+    .skills-info {
+        width: 100%;
+    }
+}

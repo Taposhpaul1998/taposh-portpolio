@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "name": " Cycle House",
+        "img": "https://i.ibb.co/p1DxNbc/Cycle.png",
+        "description": "It’s an inventory management website for managing cycle stores.This site data will be dynamically loaded and updated with time in the MongoDB database.Firebase authentication (email, password, google) system uses This site.",
+        "tecnolgy": [
+            "React",
+            "Firebase",
+            "Express js",
+            "Mongo db",
+            "Bootstrap",
+            "jwt"
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "Hero Paint Tools",
+        "img": "https://i.ibb.co/3pNx28W/paint1.png",
+        "description": "It’s a Tools manufacturer's website. Create an admin route, users can purchase tools they want, and the admin will update and delete products.This site is Fully responsive for Mobile, Tablet, and Desktop.",
+        "tecnolgy": [
+            "React",
+            "Firebase",
+            "Express js",
+            "Mongo db",
+            " Daisy UI",
+            " Tailwind",
+            " Axios",
+            "jwt"
+        ]
+    },
+    {
+        "_id": 3,
+        "name": "Sajib Dental",
+        "img": "https://i.ibb.co/XbPySNx/dr-1.png",
+        "description": "It’s a Dental service provider website.This site uses (email, password, google) a firebase authentication system.You can’t use this site without a login.",
+        "tecnolgy": [
+            "React",
+            "Firebase",
+            "Bootstrap",
+            "Toastyfi"
+        ]
+    }
+]
