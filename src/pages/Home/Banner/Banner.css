@@ -97,6 +97,7 @@
 
 @media (max-width:414px) {
     .hero .right_img {
+        margin-left: 0px;
         height: 380px;
         width: 380px;
     }
