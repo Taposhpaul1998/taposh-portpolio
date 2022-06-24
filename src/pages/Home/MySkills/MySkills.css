@@ -55,7 +55,7 @@
 }
 
 .line::before {
-    content: "";
+    content: " ";
     position: absolute;
     height: 100%;
     width: 80%;
@@ -84,7 +84,7 @@
     width: 50%;
 }
 
-@media (max-width:896px) {
+@media (max-width:992px) {
     .skills .f_flex {
         flex-direction: column;
     }
@@ -98,16 +98,18 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:688px) {
     .skills .f_flex {
         flex-direction: column;
     }
 
     .exprience-info {
         width: 100%;
+        margin-left: 0%;
     }
 
     .skills-info {
         width: 100%;
+        margin-left: 0%;
     }
 }

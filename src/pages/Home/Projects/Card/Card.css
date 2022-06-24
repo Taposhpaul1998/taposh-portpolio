@@ -6,6 +6,11 @@
 .img img {
     max-width: 100%;
     border-radius: 9px;
+    transition: .5s;
+}
+
+.img:hover img {
+    transform: scale(1.1);
 }
 
 .project_name h3 {
@@ -16,4 +21,129 @@
 .card_icon {
     display: flex;
     justify-content: space-between;
+}
+
+/* modal  */
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.overlay {
+    background-color: #ecf0f3;
+}
+
+.modal-content {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    padding: 12px 24px;
+    min-width: 60%;
+    max-width: 85%;
+    z-index: 999;
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-img {
+    width: 50%;
+}
+
+.modal-img img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.modal-img:hover img {
+    transform: scale(1.05);
+}
+
+.modal-text {
+    padding-left: 25px;
+    width: 50%;
+}
+
+.modal-text h3 {
+    font-size: 35px;
+    color: #000000c9;
+}
+
+.modal-text p {
+    color: #878e99;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.modal-btn {
+    margin-top: 25px;
+}
+
+.modal-close {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: .5s all ease;
+    cursor: pointer;
+    color: #eb4c4c;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    margin-left: 23px;
+}
+
+.modal-close:hover {
+    background-color: #eb4c4c;
+    color: white;
+    transform: translateY(-10px);
+}
+
+@media (max-width:992px) {
+    .img {
+        width: 100%;
+    }
+
+    .modal-content {
+        flex-direction: column;
+        top: 20%;
+
+    }
+
+    .modal-img {
+        width: 100%;
+    }
+
+    .modal-text {
+        width: 100%;
+    }
+}
+
+@media (max-width:688px) {
+    .img {
+        width: 100%;
+    }
+
+    .modal-content {
+        flex-direction: column;
+    }
+
+    .modal-img {
+        width: 100%;
+    }
+
+    .modal-text {
+        width: 100%;
+    }
 }

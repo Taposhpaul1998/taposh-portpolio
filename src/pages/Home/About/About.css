@@ -39,7 +39,7 @@
     margin-top: 30px;
 }
 
-@media (max-width:896px) {
+@media (max-width:992px) {
     .about_img {
         margin-left: 30%;
     }
@@ -55,7 +55,7 @@
 
 @media (max-width:768px) {
     .about_img {
-        margin-left: 5px;
+        margin-left: 0%;
     }
 
     .about .f_flex {
@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width:414px) {
+@media (max-width:688px) {
     .about_img {
         height: 380px;
         width: 380px;

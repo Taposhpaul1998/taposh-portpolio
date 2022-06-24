@@ -61,7 +61,7 @@
     margin-bottom: 10px;
 }
 
-@media (max-width:896px) {
+@media (max-width:992px) {
     .contact .f_flex {
         flex-direction: column;
     }
@@ -75,16 +75,26 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:688px) {
     .contact .f_flex {
         flex-direction: column;
     }
 
     .socile-link {
         width: 100%;
+        margin-left: 0%;
+    }
+
+    .socile_icon {
+        padding-left: 5px;
+    }
+
+    .socile-btn {
+        margin-left: 5px;
     }
 
     .contact-from {
         width: 100%;
+        margin-left: 0%;
     }
 }

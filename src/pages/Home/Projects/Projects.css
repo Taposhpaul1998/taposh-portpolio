@@ -1,5 +1,12 @@
 .projects {
     padding: 65px 10px;
+    position: relative;
+}
+
+.projects .box:hover {
+    color: black;
+    background: none;
+    transform: translateY(0);
 }
 
 .project-conteiner {
@@ -21,19 +28,13 @@
     grid-gap: 30px;
 }
 
-@media (max-width:896px) {
+@media (max-width:992px) {
     .conteiner_grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width:768px) {
-    .conteiner_grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width:545px) {
+@media (max-width:688px) {
     .conteiner_grid {
         grid-template-columns: auto;
     }
